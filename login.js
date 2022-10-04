@@ -12,6 +12,7 @@ function validate() {
     return true;
   } else {
     attempt--; // Decrementing by one.
+    
     alert('You have left ' + attempt + ' attempt;');
 
     // Disabling fields after 3 attempts.
